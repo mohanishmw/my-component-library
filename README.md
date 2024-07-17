@@ -11,5 +11,6 @@ This will publish the component library to an npm package called [my-component-l
 
 ## Usage
 1. Install the package in your project using `npm install my-component-library-golimaar`.
-2. Import a component called `Exportable` from the package and pass the required props to see it in action.
+2. Put this in the root component `import "my-component-library-golimaar/dist/style.css";`
+3. Import the component `Exportable` from the package and pass the required props to see it in action.
 
